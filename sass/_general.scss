@@ -10,9 +10,12 @@ html {
 body {
   display: flex;
   flex-direction: column;
+  font-family: "Futura PT", "Arial", sans-serif;
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: #F9F8F8;
+  background-image: url("../images/bg.png");
 }
 
 main {

@@ -1,0 +1,204 @@
+.nashi{
+  text-align: center;
+  margin-bottom: 163px;
+}
+.nashi__title{
+  margin: 0;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 20px;
+  align-items: center;
+  color: #333333;
+  margin-bottom: 80px;
+}
+.nashi__div{
+  margin-left: 55px;
+}
+.nashi__list{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+.nashi__item{
+  width: 192px;
+  background: #FFFFFF;
+  border-radius: 5px 5px 0px 0px;
+  text-align: center;
+  padding: 129px 32px 19px 35px;
+  cursor: pointer;
+}
+.nashi__item:hover{
+  opacity: 0.8;
+}
+.nashi__item:active{
+  opacity: 0.6;
+}
+.nashi__item + .nashi__item{
+  margin-left: 13px;
+}
+.nashi__link{
+  position: relative;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #333333;
+}
+.nashi__link::before{
+  position: absolute;
+  height: 77px;
+  top: -110px;
+  right: 30px;
+  background-repeat: no-repeat;
+  content: "";
+}
+.nashi__item:nth-child(2) .nashi__link::before{
+  background-image: url("../images/doctor\ 1.svg"); 
+  width: 54px;
+}
+.nashi__item:nth-child(3) .nashi__link::before{
+  background-image: url("../images/doctor_woman.svg"); 
+  width: 61px;
+}
+.nashi__item:nth-child(4) .nashi__link::before{
+  background-image: url("../images/dog_ill.svg"); 
+  width: 72px;
+}
+.nashi__item:nth-child(5) .nashi__link::before{
+  background-image: url("../images/dog_hair.svg");
+  width: 76px; 
+}
+.nashi__item:nth-child(6) .nashi__link::before{
+  background-image: url("../images/lup.svg"); 
+  width: 78px;
+}
+.nashi__item:nth-child(7) .nashi__link::before{
+  background-image: url("../images/dogs.svg"); 
+  width: 76px;
+}
+.but{
+  position: relative;
+}
+.nashi__button{
+  position: absolute;
+  top: 80px;
+  left: -50px;
+  border: none;
+  background-color: #F9F8F8;
+  cursor: pointer;
+}
+.nashi__button2{
+  position: absolute;
+  top: 80px;
+  right: -50px;
+  border: none;
+  background-color: #F9F8F8;
+  cursor: pointer;
+}
+.nashi__button:hover{
+  background-color: #fff;
+}
+.nashi__button:active{
+  background-color: #fff;
+  opacity: 0.6;
+}
+.nashi__button2:hover{
+  background-color: #fff;
+}
+.nashi__button2:active{
+  background-color: #fff;
+  opacity: 0.6;
+}
+.nashi__bottom {
+  display: flex;
+  align-items: center;
+  padding: 41px 0px 41px;
+  
+  background: #FFFFFF;
+  border-radius: 0px 5px 5px 5px;
+}
+.nashi__bottom__left {
+  margin-right: 60px;
+}
+.nashi__bottom__title {
+  margin: 0 0 18px 0;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 20px;
+  align-items: center;
+}
+.nashi__bottom__text__box {
+  width: 492px;
+}
+.nashi__bottom__text {
+  margin: 0 0 34px 0;
+  line-height: 20px;
+  color: #949494;
+}
+.nashi__bottom__but {
+  position: relative;
+  display: inline-block;
+  padding: 16px 36px 16px 63px;
+  margin-right: 21px;
+  background: #FFBD54;
+  border-radius: 3px;
+  border: 3px solid #FFBD54;
+  font-weight: 500;
+  line-height: 21px;
+  color: #FFFFFF;
+  cursor: pointer;
+  &::before{
+     position: absolute;
+     z-index: 10;
+     top: 15px;
+     left: 35px;
+     display: block;
+     width: 22px;
+     height: 21px;
+     background-image: url("../images/nashi_but_img1.svg");
+     background-repeat: no-repeat;
+     content: "";
+  }
+  &:hover{
+     opacity: 0.8;
+  }
+  &:active{
+     opacity: 0.6;
+  }
+  
+  
+}
+.nashi__bottom__but__sec {
+  position: relative;
+  display: inline-block;
+  padding: 15px 37px 15px 64px;
+  background: #333333;
+  border-radius: 3px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #FFFFFF;
+  cursor: pointer;
+  &::before{
+     position: absolute;
+     z-index: 10;
+     top: 15px;
+     left: 35px;
+     display: block;
+     width: 21px;
+     height: 21px;
+     background-image: url("../images/nashi_but_img2.svg");
+     background-repeat: no-repeat;
+     content: "";
+     
+  }
+  &:hover{
+     opacity: 0.8;
+  }
+  &:active{
+     opacity: 0.6;
+  }
+}
