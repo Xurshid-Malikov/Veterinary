@@ -678,7 +678,7 @@ img {
   background-image: url("../images/hero-bg.png"), url("../images/parrot.png");
   background-repeat: no-repeat;
   background-size: 870px 835px, 350px 430px;
-  background-position: calc(50% - 450px) calc(50% - 570px), calc(50% + 700px) calc(50% - 240px);
+  background-position: calc(50% - 450px) calc(50% - 290px), calc(50% + 700px) calc(50% - 0px);
 }
 
 .hero__inner {
@@ -821,6 +821,7 @@ img {
 
 .nashi__div {
   margin-left: 55px;
+  margin-bottom: 53px;
 }
 
 .nashi__list {
